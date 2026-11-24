@@ -10,33 +10,31 @@ export default function Home() {
       <section className="hero wrap">
         <div className="hero-copy">
           <span className="eyebrow"><span className="eyebrow-line" />Nail studio · Murang’a</span>
-          <h1>Manicures,<br />pedicures &amp;<br />nail art.</h1>
-          <p className="hero-lede">Thoughtful nail care and expressive designs, made personal in Murang’a.</p>
+          <h1>Manicures,<br />pedicures &amp;<br />press-ons.</h1>
+          <p className="hero-lede">From a clean polish to acrylic length or custom press-ons, tell Felicity what you have in mind.</p>
           <div className="hero-actions"><WhatsAppButton /><Link to="/gallery" className="text-link">See the work <ArrowRight size={16} /></Link></div>
         </div>
-        <div className="hero-visual" aria-label="A selection of Felicity’s nail designs">
-          <div className="hero-image hero-image-main"><img src="/images/portfolio/10.jpeg" alt="Black and nude nails with a fine hand-painted accent" /></div>
-          <div className="hero-image hero-image-inset"><img src="/images/portfolio/Nails%20by%20Felicity.jpeg" alt="Berry red stiletto nails with floral embellishments" /></div>
-          <span className="hero-stamp">Felicity<br /><small>nail artist</small></span>
-          <span className="hero-image-caption">Colour with a point of view <span>01 / 04</span></span>
-        </div>
+        <figure className="hero-visual">
+          <div className="hero-image hero-image-main"><img src="/images/portfolio/14.jpeg" alt="Glossy red stiletto nails photographed against blue fabric" fetchPriority="high" /></div>
+          <figcaption className="hero-image-caption"><span>Red stiletto set</span><span>Nails by Felicity · Murang’a</span></figcaption>
+        </figure>
         <a className="scroll-cue" href="#services"><ArrowDown size={15} /> Scroll to explore</a>
       </section>
 
       <section className="intro-band">
-        <div className="wrap intro-band-inner"><span className="section-kicker">Nails by Felicity</span><p>A little <em>polish</em>, a little personality — <br className="desktop-break" />and a finish that feels like yours.</p></div>
+        <div className="wrap intro-band-inner"><span className="section-kicker">The studio menu</span><p>Manicure <span className="service-separator" aria-hidden="true">·</span> Pedicure <span className="service-separator" aria-hidden="true">·</span> Acrylics <span className="service-separator" aria-hidden="true">·</span> Press-ons</p></div>
       </section>
 
       <section className="section wrap services-preview" id="services">
-        <div className="section-heading"><div><span className="eyebrow"><span className="eyebrow-line" />The menu</span><h2>Good nails,<br /><em>your way.</em></h2></div><p>From a clean, classic finish to a set that turns heads, choose the care and detail that suit your style.</p></div>
+        <div className="section-heading"><div><span className="eyebrow"><span className="eyebrow-line" />Services in Murang’a</span><h2>Care for hands,<br /><em>feet and sets.</em></h2></div><p>Choose a manicure or pedicure, add length with acrylics, or ask Felicity about a made-to-fit press-on set.</p></div>
         <ServiceList compact />
       </section>
 
       <section className="gallery-preview">
-        <div className="wrap"><div className="section-heading section-heading-gallery"><div><span className="eyebrow"><span className="eyebrow-line" />A look at the work</span><h2>Colour. Shape.<br /><em>Character.</em></h2></div><Link to="/gallery" className="text-link">View the gallery <ArrowRight size={16} /></Link></div><GalleryGrid limit={4} /></div>
+        <div className="wrap"><div className="section-heading section-heading-gallery"><div><span className="eyebrow"><span className="eyebrow-line" />Recent sets</span><h2>Acrylics, press-ons<br /><em>and nail art.</em></h2></div><Link to="/gallery" className="text-link">View the gallery <ArrowRight size={16} /></Link></div><GalleryGrid limit={4} /></div>
       </section>
 
-      <section className="home-cta"><div className="wrap home-cta-inner"><span className="eyebrow eyebrow-light"><span className="eyebrow-line" />Your next set</span><h2>Let’s make it<br /><em>yours.</em></h2><p>Tell Felicity what you have in mind and ask about current availability and pricing.</p><WhatsAppButton message="Hello Felicity, I would like to ask about an appointment." /></div></section>
+      <section className="home-cta"><div className="wrap home-cta-inner"><span className="eyebrow eyebrow-light"><span className="eyebrow-line" />Appointments by enquiry</span><h2>Bring your idea<br /><em>to Felicity.</em></h2><p>Send a design reference or ask about a service. Felicity can share current prices and availability.</p><WhatsAppButton message="Hello Felicity, I would like to ask about an appointment." /></div></section>
     </>
   )
 }

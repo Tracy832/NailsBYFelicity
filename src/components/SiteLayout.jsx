@@ -35,7 +35,7 @@ export default function SiteLayout() {
   const close = () => setOpen(false)
   return (
     <>
-      <div className="announcement"><span>Thoughtful nail care, made personal</span><span className="announcement-location"><MapPin size={13} /> Murang’a, Kenya</span></div>
+      <div className="announcement"><span>Manicure · Pedicure · Acrylics · Press-ons</span><span className="announcement-location"><MapPin size={13} /> Murang’a, Kenya</span></div>
       <header className="site-header">
         <div className="header-inner wrap">
           <Brand />

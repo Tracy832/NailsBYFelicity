@@ -4,9 +4,9 @@ import GalleryGrid from '../components/GalleryGrid.jsx'
 export default function Gallery() {
   return (
     <>
-      <PageIntro eyebrow="The portfolio" title={<>A little inspiration<br /><em>for your next set.</em></>} text="Explore Felicity’s recent manicures, nail art and extensions. Tap a design to take a closer look." />
+      <PageIntro eyebrow="Felicity’s portfolio" title={<>Acrylics, colour<br /><em>and nail art.</em></>} text="Browse recent sets by service. Open any photo to see the design up close." />
       <section className="wrap page-section gallery-page"><GalleryGrid /></section>
-      <div className="wrap gallery-bottom-note"><span>Have a favourite?</span><span>Save it for your appointment conversation.</span></div>
+      <div className="wrap gallery-bottom-note"><span>Found a set you like?</span><span>Send the photo to Felicity with your enquiry.</span></div>
     </>
   )
 }
