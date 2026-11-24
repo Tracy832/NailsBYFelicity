@@ -15,7 +15,7 @@ export default function Contact() {
           <article><span className="contact-detail-icon"><ArrowUpRight size={20} /></span><div><span className="detail-label">The next step</span><h3>Share your idea</h3><p>Bring a reference photo or let Felicity help you choose a look.</p></div></article>
         </div>
       </section>
-      <section className="contact-map-note"><div className="wrap map-note-inner"><span className="map-note-mark"><MapPin size={24} /></span><div><span className="eyebrow">Find Nails by Felicity</span><h2>In the heart of <em>Murang’a.</em></h2><p>Exact directions are shared when your appointment is arranged.</p></div><div className="map-pattern" aria-hidden="true"><span>01</span><span>KENYA · MURANG’A</span></div></div></section>
+      <section className="contact-map-note"><div className="wrap map-note-inner"><span className="map-note-mark"><MapPin size={24} /></span><div><span className="eyebrow">Find Nails by Felicity</span><h2>In the heart of <em>Murang’a.</em></h2><p>Exact directions are shared when your appointment is arranged.</p></div><div className="map-pattern" aria-hidden="true"><span>01</span><span>Murang’a, Kenya</span></div></div></section>
     </>
   )
 }

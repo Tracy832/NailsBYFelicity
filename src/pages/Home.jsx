@@ -1,4 +1,4 @@
-import { ArrowDown, ArrowRight, Sparkles } from 'lucide-react'
+import { ArrowDown, ArrowRight } from 'lucide-react'
 import { Link } from 'react-router-dom'
 import GalleryGrid from '../components/GalleryGrid.jsx'
 import ServiceList from '../components/ServiceList.jsx'
@@ -10,10 +10,9 @@ export default function Home() {
       <section className="hero wrap">
         <div className="hero-copy">
           <span className="eyebrow"><span className="eyebrow-line" />Nail studio · Murang’a</span>
-          <h1>Make room<br />for <em>beautiful</em><br />hands.</h1>
-          <p className="hero-lede">Thoughtful manicures, pedicures and nail designs with colour, detail and a little confidence.</p>
+          <h1>Manicures,<br />pedicures &amp;<br />nail art.</h1>
+          <p className="hero-lede">Thoughtful nail care and expressive designs, made personal in Murang’a.</p>
           <div className="hero-actions"><WhatsAppButton /><Link to="/gallery" className="text-link">See the work <ArrowRight size={16} /></Link></div>
-          <div className="hero-note"><span className="hero-note-star"><Sparkles size={16} /></span><span>Made personal,<br />one set at a time.</span></div>
         </div>
         <div className="hero-visual" aria-label="A selection of Felicity’s nail designs">
           <div className="hero-image hero-image-main"><img src="/images/portfolio/10.jpeg" alt="Black and nude nails with a fine hand-painted accent" /></div>
@@ -25,7 +24,7 @@ export default function Home() {
       </section>
 
       <section className="intro-band">
-        <div className="wrap intro-band-inner"><span className="section-kicker">Nails by Felicity</span><p>A little <em>polish</em>, a little personality — <br className="desktop-break" />and a finish that feels like yours.</p><span className="intro-flower" aria-hidden="true">✳</span></div>
+        <div className="wrap intro-band-inner"><span className="section-kicker">Nails by Felicity</span><p>A little <em>polish</em>, a little personality — <br className="desktop-break" />and a finish that feels like yours.</p></div>
       </section>
 
       <section className="section wrap services-preview" id="services">
@@ -37,7 +36,7 @@ export default function Home() {
         <div className="wrap"><div className="section-heading section-heading-gallery"><div><span className="eyebrow"><span className="eyebrow-line" />A look at the work</span><h2>Colour. Shape.<br /><em>Character.</em></h2></div><Link to="/gallery" className="text-link">View the gallery <ArrowRight size={16} /></Link></div><GalleryGrid limit={4} /></div>
       </section>
 
-      <section className="home-cta"><div className="wrap home-cta-inner"><span className="eyebrow eyebrow-light"><span className="eyebrow-line" />Your next set</span><h2>Let’s make it<br /><em>yours.</em></h2><p>Tell Felicity what you have in mind and ask about current availability and pricing.</p><WhatsAppButton message="Hello Felicity, I would like to ask about an appointment." /><span className="cta-orbit" aria-hidden="true">✳</span></div></section>
+      <section className="home-cta"><div className="wrap home-cta-inner"><span className="eyebrow eyebrow-light"><span className="eyebrow-line" />Your next set</span><h2>Let’s make it<br /><em>yours.</em></h2><p>Tell Felicity what you have in mind and ask about current availability and pricing.</p><WhatsAppButton message="Hello Felicity, I would like to ask about an appointment." /></div></section>
     </>
   )
 }

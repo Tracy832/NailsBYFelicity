@@ -4,7 +4,7 @@ A responsive React and Vite website for Nails by Felicity in Murang’a, Kenya. 
 
 ## Start in VS Code
 
-1. Extract the ZIP and open the `nails-by-felicity` folder in VS Code.
+1. Open the `Nails_by_Felicity` folder in VS Code.
 2. Open **Terminal → New Terminal**.
 3. Run:
 
@@ -41,3 +41,7 @@ Restart the Vite server after editing the environment file. The same WhatsApp se
 - `/contact` — location details and appointment enquiries
 
 The home page, service descriptions, contact copy, prices and portfolio are written to be easy to revise as Felicity confirms her final business details.
+
+## Design direction and Unslop
+
+This project uses the Unslop skill by Damir Sokolovsky to keep the interface specific to Felicity’s nail work. The skill is installed in `.agents/skills/unslop`. It is licensed under CC BY 4.0; attribution and the license are included with the skill files. See [UNSLOP-NOTES.md](UNSLOP-NOTES.md) for the audit and direction used for this pass.
