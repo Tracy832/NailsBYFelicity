@@ -14,9 +14,11 @@ export default function Home() {
           <p className="hero-lede">From a clean polish to acrylic length or custom press-ons, tell Felicity what you have in mind.</p>
           <div className="hero-actions"><WhatsAppButton /><Link to="/gallery" className="text-link">See the work <ArrowRight size={16} /></Link></div>
         </div>
-        <figure className="hero-visual">
-          <div className="hero-image hero-image-main"><img src="/images/portfolio/14.jpeg" alt="Glossy red stiletto nails photographed against blue fabric" fetchPriority="high" /></div>
-          <figcaption className="hero-image-caption"><span>Red stiletto set</span><span>Nails by Felicity · Murang’a</span></figcaption>
+        <figure className="hero-visual" aria-label="Selected nail designs by Felicity">
+          <div className="hero-image hero-image-main"><img src="/images/portfolio/10.jpeg" alt="Black and nude nails with a fine hand-painted accent" fetchPriority="high" /></div>
+          <div className="hero-image hero-image-inset"><img src="/images/portfolio/Nails%20by%20Felicity.jpeg" alt="Berry red stiletto nails with floral embellishments" /></div>
+          <span className="hero-stamp">Felicity<br /><small>nail artist</small></span>
+          <figcaption className="hero-image-caption"><span>Colour with a point of view</span><span>Felicity’s portfolio</span></figcaption>
         </figure>
         <a className="scroll-cue" href="#services"><ArrowDown size={15} /> Scroll to explore</a>
       </section>
